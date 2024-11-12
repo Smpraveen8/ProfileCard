@@ -1,6 +1,8 @@
 
 import React from 'react'
 function res(){
+  console.log('Resume button clicked');
+  alert('Button clicked!');
   window.open('https://smpraveen8.github.io/ProfileCard/PraveenSM.pdf', '_blank');
 }
 function User(){
