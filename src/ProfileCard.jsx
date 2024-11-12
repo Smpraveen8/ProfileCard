@@ -1,7 +1,7 @@
 
 import React from 'react'
 function res(){
-  window.location.href = '/PraveenSM.pdf' 
+  window.location.href = process.env.PUBLIC_URL + '/PraveenSM.pdf'; 
 }
 function User(){
   return(
