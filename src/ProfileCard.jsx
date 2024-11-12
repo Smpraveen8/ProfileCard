@@ -1,7 +1,7 @@
 
 import React from 'react'
 function res(){
-  window.location.href = process.env.PUBLIC_URL + '/PraveenSM.pdf'; 
+  window.open('https://smpraveen8.github.io/ProfileCard/PraveenSM.pdf', '_blank');
 }
 function User(){
   return(
@@ -14,7 +14,6 @@ function User(){
     <h3 className='dept'>Electronics and Communication Engineering</h3>
     <p className='dept'>Full Stack Developer</p>
     <div className='button'>
-      {/* <button className='primary'>Message</button> */}
       <button className='primary outline' onClick={res}>Resume</button>
     </div>
     <div className='skills'>
