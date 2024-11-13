@@ -4,6 +4,7 @@
 
 body{
     font-family:'Times New Roman';
+    background-color: rgb(72, 112, 112);
 } 
 
 #root{
@@ -69,7 +70,6 @@ p{
     background-color: transparent;
     text-decoration: none;
     border: 1px solid #0984e3;
-    
 }
 .online{
     background-color: bisque;
@@ -81,7 +81,6 @@ p{
     border: 2px solid #fff;
     border-radius: 50%;
     padding: 2px;
-    
 }
 .button{
     display: flex;
@@ -98,6 +97,7 @@ button.primary{
     font-weight: 500;
     font-family: 'Times New Roman', Times, serif;
     cursor: pointer;
+    background-color: transparent;
 }
 
 .sk{
