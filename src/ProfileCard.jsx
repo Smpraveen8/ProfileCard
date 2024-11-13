@@ -10,7 +10,7 @@ function User(){
     <div className='card-container'>
     <a className='pro' href='https://www.linkedin.com/in/praveen-sm-742209212/'>Linkedin</a>
     <a className='pro2' href='https://github.com/Smpraveen8'>Github</a>
-    <img src='photo2.jpg' className='image' width= "120" height="120"></img>
+    <img src='photo4.jpg' className='image' width= "120" height="120"></img>
     <h3 className='name'>Praveen SM</h3>
     <h3 className='dept'>smpraveen2002@gmail.com</h3>
     <h3 className='dept'>Electronics and Communication Engineering</h3>
@@ -29,6 +29,7 @@ function User(){
          <li>Python</li>
          <li>Mysql</li>
          <li>Oracle</li>
+      
       </ul>
     </div>
     </div>
