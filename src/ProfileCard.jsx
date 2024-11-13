@@ -2,14 +2,15 @@
 import React from 'react'
 function res(){
   console.log('Resume button clicked');
-  window.open('https://smpraveen8.github.io/ProfileCard/PraveenSM.pdf', '_blank');
+  
+  window.open('https://smpraveen8.github.io/ProfileCard/Praveen.pdf', '_blank');
 }
 function User(){
   return(
     <div className='card-container'>
     <a className='pro' href='https://www.linkedin.com/in/praveen-sm-742209212/'>Linkedin</a>
     <a className='pro2' href='https://github.com/Smpraveen8'>Github</a>
-    <img src='photo1.jpg' className='image' width= "100" height="100"></img>
+    <img src='photo2.jpg' className='image' width= "120" height="120"></img>
     <h3 className='name'>Praveen SM</h3>
     <h3 className='dept'>smpraveen2002@gmail.com</h3>
     <h3 className='dept'>Electronics and Communication Engineering</h3>
